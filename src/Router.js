@@ -3,7 +3,7 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import ProtectionTodo from "./components/protection/ProtectionTodo";
 import GetDataUser from "./components/protection/getDataUser";
-import AnimationLoading from "./components/UI/AnimationLoading";
+
 const Router = createBrowserRouter([
   {
     path: "/",
@@ -19,10 +19,7 @@ const Router = createBrowserRouter([
           },
         ],
       },
-      {
-        path:"animation",
-        element:<AnimationLoading/>
-      }
+     
     ],
   },
   {
