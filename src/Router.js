@@ -10,7 +10,7 @@ const Router = createBrowserRouter([
     element: <GetDataUser/>,
     children: [
       {
-        path: "todolist",
+        indext:true,
         element: <ProtectionTodo />,
         children: [
           {

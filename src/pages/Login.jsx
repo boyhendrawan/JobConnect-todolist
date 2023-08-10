@@ -19,7 +19,8 @@ function Login() {
   // handle when submit clicked
   const handlerSubmit = (e) => {
     e.preventDefault();
-    if (valueUsername.length <= 0) return toast.error("You must fill all data ", { position: toast.POSITION.TOP_CENTER });
+    if (valueUsername.length === 0 ) return toast.error("Kamu harus mengisi semua form ", { position: toast.POSITION.TOP_CENTER });
+    if(invalidUsername)return toast.error("Passcode kamu salah", { position: toast.POSITION.TOP_CENTER });
     dispatch(requestLogin({valueUsername}, navigate, resetUsername));
   }
   return (

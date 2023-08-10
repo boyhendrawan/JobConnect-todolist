@@ -1,7 +1,7 @@
 # JobConnect-todolist
 
 ## Jawaban Dari MockTest
-### JSON
+### 1.JSON PADA REST FULL API
 
 JSON adalah singkatan dari "JavaScript Object Notation." Ini adalah format pertukaran data ringan yang mudah dibaca dan ditulis oleh manusia, serta diproses dan dihasilkan oleh mesin. JSON menggunakan struktur sederhana berupa pasangan kunci-nilai, di mana data diatur ke dalam objek (diapit oleh kurung kurawal {}) dan larik (diapit oleh tanda kurung siku []). Setiap kunci adalah string, dan nilai bisa berupa string, angka, objek, larik, boolean, atau null. JSON umumnya digunakan untuk pertukaran data antara server dan aplikasi web, dan sering digunakan dengan API untuk mengirim informasi terstruktur.
 penggunaan json untuk  restfull api : 
@@ -30,9 +30,9 @@ Semoga penjelasan ini membantu Anda memahami JSON dalam konteks API dengan lebih
 
 
 
-Rest Full Api
+### 2.Apa itu Restfull API
 
-Tentu! RESTful API adalah cara bagi berbagai bagian perangkat lunak untuk berbicara satu sama lain dengan menggunakan aturan yang sudah ada, seperti berbicara dengan teman menggunakan bahasa yang dipahami bersama. Ini sangat berguna dalam pengembangan front end. Mari saya jelaskan poin-poinnya lebih detail:
+RESTful API adalah cara bagi berbagai bagian perangkat lunak untuk berbicara satu sama lain dengan menggunakan aturan yang sudah ada, seperti berbicara dengan teman menggunakan bahasa yang dipahami bersama. Ini sangat berguna dalam pengembangan front end. Mari saya jelaskan poin-poinnya lebih detail:
 
 1. **Representational State Transfer (Transfer Status Representasi)**: RESTful API menggunakan cara berbicara yang teratur dan jelas antara komponen perangkat lunak. Ini mirip dengan kita berbicara dengan bahasa yang dimengerti bersama.
 
@@ -51,3 +51,10 @@ Tentu! RESTful API adalah cara bagi berbagai bagian perangkat lunak untuk berbic
 6. **Sumber Daya (Resources)**: API RESTful menggunakan URL (alamat) untuk mengakses sumber daya tertentu, seperti halaman di sebuah buku menu restoran.
 
 Dalam pengembangan front end, RESTful API digunakan untuk mengambil data dari server (misalnya, menu restoran) atau mengirim data ke server (misalnya, memesan makanan), sehingga aplikasi dapat berinteraksi dengan informasi yang ada di belakang layar.
+
+
+### 3.Deksrpsi Fitur
+#### 1.Login
+    Pada fitur ini user dapat login menggunakan passcode dengan penghandelingan menggunakan redux  dan redux thunk
+####  2.Add New Todo
+    Pada fitur  ini menggunakan data 

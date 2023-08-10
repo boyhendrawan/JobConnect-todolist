@@ -8,13 +8,15 @@ export const login = (data, navigate, resetUsername) => async (dispatch) => {
       `${process.env.REACT_APP_API}users?username=${data.valueUsername}`,
       { "Content-Type": "application/json" }
     );
+    // console.log(response.data.le)
+    if(response?.data.length ===0) throw new Error("Oops, Got Error User Tidak Ada")
     const { token } = response?.data[0];
     dispatch(fLogin(token)); 
     dispatch(setIsLoggedIn(true))
     // reset password and useranme
     resetUsername();
     // redirect to home, don't forget to useNavigate in the component
-    navigate("/todolist");
+    navigate("/");
     toast.success(`Successfully, Login`,{position:"top-right"})
   } catch (error) {
     if (axios.isAxiosError(error)) {
