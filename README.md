@@ -56,5 +56,13 @@ Dalam pengembangan front end, RESTful API digunakan untuk mengambil data dari se
 ### 3.Deksrpsi Fitur
 #### 1.Login
     Pada fitur ini user dapat login menggunakan passcode dengan penghandelingan menggunakan redux  dan redux thunk
-####  2.Add New Todo
-    Pada fitur  ini menggunakan data 
+####  2.Search Todo
+    Pada fitur  ini dapat mencari data ataupun todolist yang tersedia
+####  3.Add New Todo
+    Pada fitur  ini menggunakan redux thunk dikarenakan synchronous bisa melakukan penambahan data keserver
+####  4.Edit
+    Pada fitur  ini menggunakan redux thunk dikarenakan synchronous bisa melakukan edit title serta description pada todolist
+#### 5.delete
+     Pada fitur  ini menggunakan redux thunk dikarenakan synchronous bisa melakukan delete data todo pada app todo
+
+    
